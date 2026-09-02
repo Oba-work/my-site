@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <title>Projects | OBA'S COMPANY</title>
+
+ <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+ <header class="site-header">
+
+ <a class="logo" href="#" id="logoButton" aria-label="Open OBA Logo">
+ <img src="logo.png" alt="OBA Logo">
+ </a>
+
+ <nav>
+ <a href="index.html">Home</a>
+ <a href="about.html">About</a>
+ <a href="projects.html">Projects</a>
+ </nav>
+
+ <button id="themeBtn">Dark mode</button>
+
+ </header>
+
+
+<main class="projects-main">
+
+ <h1>My Achievements</h1>
+
+ <p>
+ <strong>Here are some things I'm proud of:</strong>
+ </p>
+
+ <div class="card-row">
+
+ <!-- Row 1 -->
+ <div class="project-row-container">
+ <div class="image-card">
+ <img src="IMG_9522.jpeg" alt="Winning the League" class="project-img">
+ </div>
+ <article class="card-project">
+ <div class="project-info">
+ <h3>Winning the League</h3>
+ <p>
+ In the 2025/26 season,I helped my team win the leauge after trying very hard and in the end it payed off.
+ </p>
+ </div>
+ </article>
+ </div>
+ 
+<!-- Row 2 -->
+ <div class="project-row-container">
+ <div class="image-card">
+ <img src="Image 2.png" alt="Winning the Spring Cup" class="project-img">
+ </div>
+ <article class="card-project">
+ <div class="project-info">
+ <h3>Winning the Spring Cup with My Team</h3>
+ <p>
+ In the 2026 Spring Cup, me and my team worked hard, pushing to get a victory every Saturday, and in the end it paid off. We won the Spring Cup while going unbeaten and scored over 40 goals, with just one player scoring a huge amount of them.
+ </p>
+ </div>
+ </article>
+ </div>
+
+ <!-- Row 3 -->
+ <div class="project-row-container">
+ <div class="image-card">
+ <img src="Image 3.png" alt="Player of the Month" class="project-img">
+ </div>
+ <article class="card-project">
+ <div class="project-info">
+ <h3>Player of the Month</h3>
+ <p>
+ So in my team there is this thing called Player of the Month and it is quite self-explanatory. The best player that month wins it, and in May 2026 I won it, as well as having my birthday in the same month.
+ </p>
+ </div>
+ </article>
+ </div>
+
+ <!-- Row 4 -->
+ <div class="project-row-wrapper">
+ <small class="image-note">There was no image for player of the month but I also got this when I won the league and the cup</small>
+ <div class="project-row-container">
+ <div class="image-card">
+ <img src="Image 4.png" alt="Player of the Week" class="project-img">
+ </div>
+ <article class="card-project">
+ <div class="project-info">
+ <h3>Player of the Week</h3>
+ <p>
+ It has the same concept as Player of the Month, but it is awarded every week, and I have won it.
+ </p>
+ </div>
+ </article>
+ </div>
+ </div>
+
+ <!-- Row 5 -->
+ <div class="project-row-container">
+ <div class="image-card">
+ <img src="Image 5.png" alt="Websites & Projects" class="project-img">
+ </div>
+ <article class="card-project">
+ <div class="project-info">
+ <h3>Websites & Projects</h3>
+ <p>
+ I have attempted to make many apps, websites, games and more. None of them have gone big, but some of them are pretty good, and I have learned a lot from making them.
+ </p>
+ </div>
+ </article>
+ </div>
+
+ </div>
+
+ <!-- Talk Back / Say Your Name Section (Title inside the box as requested) -->
+ <div class="talk-back">
+   <h2>Say Hello</h2>
+   <input type="text" id="visitorName" placeholder="Enter your name" autocomplete="off">
+   <div id="helloMessage"></div>
+   <div class="talk-back-buttons">
+     <button id="helloBtn" class="main-button">Say Hello</button>
+     <button id="clearBtn">Clear</button>
+   </div>
+ </div>
+
+ <!-- NEW CONTENT: Fullscreen Image Popout Lightbox Overlay -->
+ <div id="projectImageModal" class="image-modal">
+ <button id="modalCloseBtn" class="modal-close">&times;</button>
+ <img id="modalTargetImg" src="" alt="Expanded View">
+ </div>
+
+ </main>
+
+ <footer>
+
+ <p>
+ Built by Oba Komolafe &middot; Summer 2026
+ </p>
+
+ </footer>
+
+
+ <!-- ===== LOGO VIEWER ===== -->
+
+ <div
+ class="logo-modal"
+ id="logoModal"
+ aria-hidden="true"
+ >
+
+ <button
+ class="logo-close"
+ id="logoClose"
+ aria-label="Close logo"
+ type="button"
+ >
+ &times;
+ </button>
+
+ <img
+ src="logo.png"
+ alt="OBA Logo"
+ >
+
+ </div>
+
+
+ <script src="script.js"></script>
+
+</body>
+
+</html>

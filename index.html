@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My Site</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+
+    <a class="logo" href="#" id="logoButton" aria-label="Open OBA Logo">
+      <img src="./logo.png" alt="OBA Logo">
+    </a>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+    </nav>
+
+    <button id="themeBtn">Dark mode</button>
+
+  </header>
+
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <h1>Hello, I'm Oba</h1>
+
+      <p class="tagline">I am a 10-year-old boy who loves football ⚽</p>
+      <p class="tagline"> (and rice) 🍚</p>
+
+    </div>
+
+  </section>
+
+
+  <main>
+
+    <h2>Top 3 Things I Love</h2>
+
+    <div class="card-column">
+
+      <article class="card">
+
+        <h3>Football ⚽</h3>
+
+        <p>
+          I really like it because it is a sport I have been playing since I was young.
+          Firstly, it is a great way to stay fit and have fun with my friends.
+          Secondly, it brings people together of different religions and cultures.
+        </p>
+
+      </article>
+
+
+      <article class="card">
+
+        <h3>Foods 🍪</h3>
+
+        <p>
+          I like food because it is just food *nothing else to say for that, next question!*
+        </p>
+
+      </article>
+
+
+      <article class="card">
+
+        <h3>Games 🎮</h3>
+
+        <p>
+          When I am bored, I can just play games on my PS5 with my friends and have fun instead of dragging myself ALLLLL
+          the way outside just to come back inside a few seconds later.
+        </p>
+
+      </article>
+
+    </div>
+
+
+    <!-- ===== FOOTBALL QUIZ ===== -->
+
+    <section class="card quiz">
+
+      <h2>Quiz Time</h2>
+
+      <div id="question"></div>
+
+      <div id="answers"></div>
+
+      <div id="score">Score: 0</div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ===== FOOTER ===== -->
+
+  <footer>
+
+    <p>Built by Oba Komolafe &middot; Summer 2026</p>
+
+  </footer>
+
+
+  <!-- ===== LOGO VIEWER ===== -->
+
+  <div
+    class="logo-modal"
+    id="logoModal"
+    aria-hidden="true"
+  >
+
+    <button
+      class="logo-close"
+      id="logoClose"
+      aria-label="Close logo"
+      type="button"
+    >
+      &times;
+    </button>
+
+    <img
+      src="logo.png"
+      alt="OBA Logo"
+    >
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>

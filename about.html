@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>About | MY SITE</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+ <header class="site-header">
+ <a class="logo" href="#" id="logoButton" aria-label="Open OBA Logo">
+ <img src="logo.png" alt="OBA Logo">
+ </a>
+ <nav>
+ <a href="index.html">Home</a>
+ <a href="about.html">About</a>
+ <a href="projects.html">Projects</a>
+ </nav>
+
+ <button id="themeBtn">Dark mode</button>
+
+ </header>
+
+ <main>
+ <h1>About Me</h1>
+
+ <p><strong>Hi, I'm Oba! I'm a young developer who likes to learn about code in his free time.</strong></p>
+ <h2>Five Facts About Me</h2>
+ <ul>
+ <li>Kind</li>
+ <li>Helpful</li>
+ <li>Fast</li>
+ <li>Strong</li>
+ <li>Funny</li>
+ </ul>
+
+ <h2>My Picture</h2>
+ <img src="About.jpeg" alt="Me winning the League" width="200" class="about-img">
+ </main>
+
+ <footer>
+ <p>Built by Oba Komolafe &middot; Summer 2026</p>
+ </footer>
+
+ <!-- LOGO VIEWER MODAL -->
+ <div class="logo-modal" id="logoModal" aria-hidden="true">
+ <button class="logo-close" id="logoClose" aria-label="Close">&times;</button>
+ <img src="logo.png" alt="OBA Logo Enlarged">
+ </div>
+
+ <!-- PICTURE LIGHTBOX MODAL -->
+ <div class="image-modal" id="projectImageModal" aria-hidden="true">
+ <button class="modal-close" id="modalCloseBtn" aria-label="Close">&times;</button>
+ <img id="modalTargetImg" src="" alt="Enlarged Picture">
+ </div>
+
+ <script src="script.js"></script>
+</body>
+</html>
